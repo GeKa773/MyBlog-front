@@ -6,11 +6,11 @@ object Dependencies {
 
         object Serialization {
             const val gradlePlugin = "org.jetbrains.kotlin:kotlin-serialization:1.6.21"
-            const val serialization = "org.jetbrains.kotlinx:kotlinx-serialization:1.3.0"
+            const val serialization = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.3.0"
         }
 
         object Coroutines {
-            private const val version = "1.6.21"
+            private const val version = "1.6.4"
             const val core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version"
         }
     }
@@ -21,8 +21,7 @@ object Dependencies {
     }
 
     object Android {
-        private const val version = "7.3.1"
-        const val gradlePlugin = "com.android.tools.build:gradle:$version"
+        const val gradlePlugin = "com.android.tools.build:gradle:7.3.1"
     }
 
     object Kodein {
